@@ -29,7 +29,7 @@ public class Activity2 extends AppCompatActivity {
         btn3 = (Button)findViewById(R.id.button4);
 
         //Escuchador de la caja de texto que no permite editar sobre esta misma
-        edtxt2.setKeyListener(null);
+        edtxt2.setKeyListener(null);//https://stackoverflow.com/questions/3928711/how-to-make-edittext-not-editable-through-xml-in-android
 
         //Creacion del evento escuhador onclick para la accion de imprimir el resultado en la caja de texto
         btn1.setOnClickListener(new View.OnClickListener() {
