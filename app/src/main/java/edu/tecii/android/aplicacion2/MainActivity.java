@@ -40,8 +40,8 @@ public class MainActivity extends AppCompatActivity {
                     String val = edtxt.getText().toString();
                     //Uso del if para comprobar que el usuario haya introducido datos en la caja de texto
                     if (!val.isEmpty()){
-                        int num = Integer.parseInt(val);//Variable num para recibir el valor del casteo de los datos
-                        int a=1, b=0, c=0; //Variables auziliares para hacer los calculos de la serie
+                        long num = Integer.parseInt(val);//Variable num para recibir el valor del casteo de los datos
+                        long a=1, b=0, c=0; //Variables auziliares para hacer los calculos de la serie
                         for (int i=0; i<num; i++){//Ciclo for para recorrer todas las posiciones y realizar los calculos de cada posicion
                             b=c;
                             c=a+b;
